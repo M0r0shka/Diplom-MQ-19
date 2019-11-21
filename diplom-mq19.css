@@ -529,8 +529,11 @@ margin-bottom: 25px;
 }
 }
 
-
-
+@media (min-width: 701px) and (max-width: 960px) {
+.news-header-text {
+  font-size: 8rem;
+}
+}
 
 @media (min-width: 641px) and (max-width: 960px) {
 .header {
@@ -602,9 +605,7 @@ padding-bottom: 25px;
 margin-bottom: 35px;
 }
 
-.news-header-text {
-  font-size: 8rem;
-}
+
 
 .footer {
   background-image: url("./img/game_1280.jpg");
