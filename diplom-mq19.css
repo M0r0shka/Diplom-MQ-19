@@ -414,25 +414,25 @@ font-size: 0.8rem;
 .article-title {
   font-size: 5rem;
   margin-top: 15px;
- padding-left: 20px;
+  padding-left: 20px;
 }
 
 .content-box {
   padding-right: 20px;
-   padding-left: 20px;
+  padding-left: 20px;
   padding-top: 60px;
-padding-bottom: 54px;
+  padding-bottom: 54px;
 }
 
 
 .connection-box {
-padding-top: 50vmax;
+ padding-top: 50vmax;
 }
 
 
 .article-text {
  font-size: 1.5rem;
-line-height: 1.8rem;
+ line-height: 1.8rem;
 }
 
 .news-wrapper {
@@ -475,10 +475,10 @@ line-height: 1.8rem;
 }
 
 .news01-wrapper:after, .news02-wrapper:after, .news03-wrapper:after {
-	content: "";
-margin-top: 40px;
+  content: "";
+  margin-top: 40px;
   top: -45px;
-	left: 45px;
+  left: 45px;
   width: 14px;
   height: 3px;
 } 
@@ -492,7 +492,7 @@ margin-bottom: 25px;
 }
 
 .news-text {
-  font-size: 1.6rem;
+ font-size: 1.6rem;
  line-height: 2rem;
 }
 
@@ -529,11 +529,7 @@ margin-bottom: 25px;
 }
 }
 
-@media (min-width: 701px) and (max-width: 960px) {
-.news-header-text {
-  font-size: 8rem;
-}
-}
+
 
 @media (min-width: 641px) and (max-width: 960px) {
 .header {
@@ -602,7 +598,7 @@ padding-bottom: 25px;
 } 
 
 .news-header {
-margin-bottom: 35px;
+ margin-bottom: 35px;
 }
 
 
@@ -612,10 +608,10 @@ margin-bottom: 35px;
 }
 
 .footer-title {
-	margin-top: 80px;
-	border-radius: 15px;
-	width: 133px;
-	height: 133px;
+ margin-top: 80px;
+ border-radius: 15px;
+ width: 133px;
+ height: 133px;
 }
 
 .footer-logo {
@@ -705,16 +701,16 @@ margin-left: 20px;
 
 .article-title {
   font-size: 8rem;
- margin-bottom: 0;
-    padding-left: 30px;
+  margin-bottom: 0;
+  padding-left: 30px;
 }
 
 
 .content-box {
-padding-top: 30px;
-padding-bottom: 40px;
+  padding-top: 30px;
+  padding-bottom: 40px;
   padding-right: 30px;
-   padding-left: 30px;
+  padding-left: 30px;
 }
 
 .content-box-athlets {
@@ -726,15 +722,15 @@ padding-bottom: 40px;
   content: "";
   top: 23px;
   left: 0;
-   width: 18px;
+  width: 18px;
 }
 
 
 
 .article-header-last::after  {
   content: "";
-   width: 15px;
- top: 23px;
+  width: 15px;
+  top: 23px;
   left: -15px;
 }
 
@@ -746,20 +742,20 @@ padding-bottom: 40px;
 
 .article-text {
  font-size: 1.6rem;
-line-height: 2.8rem;
+ line-height: 2.8rem;
 }
 
 .news-text {
   font-size: 2.4rem;
- line-height: 2.8rem;
+  line-height: 2.8rem;
 }
 }
 
 
 
 @media (min-width: 680px)  {
-	.athlets:before {
-	left: -15%;
+.athlets:before {
+  left: -15%;
     }
 }
 
@@ -769,6 +765,11 @@ line-height: 2.8rem;
 }
 }
 
+@media (min-width: 701px) and (max-width: 960px) {
+.news-header-text {
+  font-size: 8rem;
+}
+}
 
 @media (min-width: 754px) {
 .header-container, .footer-container {
@@ -778,19 +779,19 @@ padding-right: 50px;}
 
 .athlets:before {
 left: -20%;
-    }
+}
 
 
 .athlets-wrapper { 
 margin-right: 50px;
 Width: 55vw;
-    }
+}
 
 
 .players-wrapper {
  margin-left: 50px;
  Width: 55vw;
-    }
+}
 }
 
 
@@ -802,9 +803,8 @@ Width: 55vw;
 }
 
 .footer-title {
-	
-	margin-left: auto;
-	margin-right: auto;
+ margin-left: auto;
+ margin-right: auto;
 }
 }
 
