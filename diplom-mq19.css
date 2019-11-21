@@ -508,7 +508,7 @@ margin-bottom: 25px;
  margin-top: 15%;
 }
 	
-.footer-description {
+.footer-description  {
  font-size: 1.4rem;
 }
 }
@@ -618,9 +618,9 @@ margin-bottom: 35px;
 }
 
 .footer-logo-text {
-	text-align: center;
-	height: 36px;
-	margin-top: 5vh;
+text-align: center;
+height: 36px;
+margin-top: 5vh;
 margin-bottom: 10px;
 }
 }
@@ -630,9 +630,9 @@ margin-bottom: 10px;
 
 @media (min-width: 641px)  {
 .header-container, .footer-container {
-  padding-left: 20px;
+padding-left: 20px;
 padding-right: 20px;
-  font-size: 6.4rem;
+font-size: 6.4rem;
 }
 
 .store-wrapper {
@@ -715,7 +715,7 @@ padding-bottom: 40px;
 .content-box-athlets {
 	margin-left: 30px;
 }
-}
+
 
 .article-header-text-one::after {
   content: "";
@@ -767,12 +767,12 @@ line-height: 2.8rem;
 
 @media (min-width: 754px) {
 .header-container, .footer-container {
-  padding-left: 50px;
+padding-left: 50px;
 padding-right: 50px;}
 
 
 .athlets:before {
-	left: -20%;
+left: -20%;
     }
 
 
@@ -784,7 +784,7 @@ Width: 55vw;
 
 .players-wrapper {
  margin-left: 50px;
-Width: 55vw;
+ Width: 55vw;
     }
 }
 
@@ -835,7 +835,7 @@ margin-bottom: 150px;
 .footer-title {
     width: 120px;
     height: 120px;
-margin-right: 20px;
+    margin-right: 20px;
 }
 
 .footer-text {
@@ -844,7 +844,7 @@ margin-right: 20px;
 
 .footer-description {
     font-size: 3rem;
-margin-left: 5px;
+    margin-left: 5px;
 }
 
 
@@ -889,14 +889,14 @@ Width: 40vw;
 
 .article-title {
   font-size: 8rem;
- margin-bottom: 0;
-    padding-left: 30px;
-margin-top: 20px;
+  margin-bottom: 0;
+  padding-left: 30px;
+  margin-top: 20px;
 }
 
 
 .article-text {
-    font-size: 1.6rem;
+   font-size: 1.6rem;
 }
 
 
@@ -917,7 +917,7 @@ flex-direction: row-reverse;
 
 
 .news-wrapper {
-	display: flex;
+   display: flex;
    flex-wrap: wrap;
     align-content: center;
     width: 50%;
@@ -930,16 +930,16 @@ flex-direction: row-reverse;
 	
 
 .news01-wrapper:before {
-	content: "01";
+    content: "01";
     font-size: 24px;
     font-weight: 700;
     padding-left: 60px;
     padding-top: 50px;
-	width: 150px;
+    width: 150px;
     height: 150px;
     top: calc(50% - 82px);
     left: -80px;
-	background-color: #5e42b0;
+    background-color: #5e42b0;
 }
 
 .news02-wrapper:before {
@@ -949,9 +949,9 @@ flex-direction: row-reverse;
 	padding-left: 65px;
 	padding-top: 50px;
 	width: 150px;
-    height: 150px;
-    top: calc(50% - 82px);
-    right: -75px;
+        height: 150px;
+        top: calc(50% - 82px);
+        right: -75px;
 	background-color: #5e42b0;
 }
 
@@ -960,18 +960,18 @@ flex-direction: row-reverse;
 	content: "03";
 	font-size: 24px;
 	font-weight: 700;
-   padding-left: 60px;
-    padding-top: 50px;
+        padding-left: 60px;
+        padding-top: 50px;
 	width: 150px;
-    height: 150px;
-    top: calc(50% - 82px);
-    left: -80px;
+        height: 150px;
+        top: calc(50% - 82px);
+        left: -80px;
 	background-color: #5e42b0;
 }
 
 .news02-wrapper:after {
-	content: "";
-top: calc(50% + 5px);
+    content: "";
+    top: calc(50% + 5px);
     right: -15px;
     width: 24px;
     height: 5px;
@@ -979,15 +979,15 @@ top: calc(50% + 5px);
 }
 
 .news01-wrapper:after, .news03-wrapper:after {
-	content: "";
-top: calc(50% + 5px);
+    content: "";
+    top: calc(50% + 5px);
     left: -20px;
     width: 24px;
     height: 5px;
 } 
 
 .news-header {
-margin-bottom: 35px;
+ margin-bottom: 35px;
 }
 }
 
